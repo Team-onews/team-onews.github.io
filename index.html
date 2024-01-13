@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team onews</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://070ry.pages.dev/assets/css/chroma.css" />
+    <link rel="stylesheet" href="/assets/css/noto.css" />
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/material.css" />
+    <link rel="stylesheet" href="/assets/css/i.css" />
+    <script src="/assets/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <background />
+      <button class="material-symbols-outlined hdb" onclick="toggleMenu()">menu</button>
+      <div class="menuu" id="menu" style="visibility: hidden">
+        <a href="https://github.com/team-onews">Github</a>
+      </div>
+      <script>
+        function toggleMenu() {
+          var menu = document.getElementById('menu');
+          menu.style.visibility = menu.style.visibility === 'visible' ? 'hidden' : 'visible';
+        }
+      </script>
+      <span class="hdt">Team onews</span>
+    </header>
+    <div id="container" class="shadow">
+      <h1>Team onews</h1>
+      <button id="github"><img src="/assets/images/github.svg" height="20px" /> Github</button>
+      <div class="member">
+        <div class="m">
+          <span class="mj">Owner</span><br />
+          <img src="https://avatars.githubusercontent.com/u/68803331?v=4" height="128px" />
+          <span class="mn">070ry</span>
+          <button class="mb" onclick="window.open('https://github.com/070ry')">
+            <img class="ms" src="/assets/images/github.svg" height="32px" />
+          </button>
+          <button class="mb" id="070ry_discord" onclick="window.open('https://discord.com/users/880410653058289685')">
+            <img class="ms" src="/assets/images/discord.svg" height="32px" />
+          </button>
+        </div>
+        <div class="m">
+          <span class="mj">SubOwner</span><br />
+          <img src="https://cdn.discordapp.com/avatars/644119383089741844/7f8a0e41761630bc63e515779009ac64.webp?size=128" height="128px" />
+          <span class="mn">Jellyfish</span>
+          <button class="mb" id="jellyfish_discord" onclick="window.open('https://discord.com/users/644119383089741844')">
+            <img class="ms" src="/assets/images/discord.svg" height="32px" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <footer>:)</footer>
+  </body>
+</html>

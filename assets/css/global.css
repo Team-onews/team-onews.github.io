@@ -1,0 +1,33 @@
+* {
+  user-select: none;
+  -webkit-user-drag: none;
+  -moz-user-select: none;
+  font-family: 'NotoSansJP-Regular', Tahoma, Geneva, Verdana, sans-serif, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(204, 204, 204);
+}
+div#container {
+  text-align-last: center;
+  margin: 64px auto;
+  max-width: 720px;
+  border-radius: 24px;
+  padding: 20px 0 60px;
+  background-color: rgb(31, 31, 31);
+}
+button {
+  cursor: pointer;
+  border: solid 2px #dddddd;
+  border-radius: 18px;
+  color: white;
+  font-size: 20px;
+  padding: 12px;
+  background-color: rgb(61, 61, 61);
+}
+button:hover {
+  background-color: rgb(48, 48, 48);
+}
+button:active {
+  background-color: rgb(36, 36, 36);
+}
