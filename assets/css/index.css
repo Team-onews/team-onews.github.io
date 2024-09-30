@@ -1,0 +1,64 @@
+a {
+  text-decoration: none;
+}
+#github {
+  margin-top: 20px;
+  padding-bottom: 8px;
+}
+#github > span {
+  vertical-align: top;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 56px;
+  left: 0;
+  background-color: #f8f8f808;
+  backdrop-filter: blur(4px);
+}
+button.hdb {
+  position: fixed;
+  top: 4px;
+  left: 4px;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 4px;
+  background: none;
+}
+button.hdb:hover {
+  background-color: #ffffff2c;
+}
+button.hdb:active {
+  background-color: #ffffff50;
+}
+div.menuu {
+  position: fixed;
+  top: 58px;
+  left: 14px;
+  padding: 12px;
+  background-color: rgb(46, 46, 46);
+}
+div.menuu a {
+  padding: 12px;
+  color: white;
+}
+div.menuu a:hover {
+  background-color: rgb(34, 34, 34);
+}
+span.hdt {
+  position: fixed;
+  left: 56px;
+  top: 12px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+footer {
+  position: sticky;
+  text-align: center;
+  font-size: 24px;
+  padding: 4px;
+}
+.footer-text {
+  color: #bbb;
+}

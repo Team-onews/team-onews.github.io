@@ -1,0 +1,42 @@
+.members-container {
+  padding-top: 24px;
+  font-size: 12px;
+}
+.member {
+  min-width: 280px;
+  margin: 10px auto;
+  border-radius: 24px;
+  padding: 10px;
+  color: #ccc;
+  background-color: rgb(43, 43, 43);
+  width: fit-content;
+  align-items: center;
+  justify-content: space-between;
+}
+.mf {
+  display: flex;
+  align-items: center;
+}
+.member-class {
+  font-size: 14px;
+  color: #ccc;
+}
+img:not(.member-icon) {
+  width: 24px;
+  height: 24px;
+}
+img.member-icon {
+  border-radius: 12px;
+}
+.member img {
+  vertical-align: bottom;
+  flex-grow: 0;
+}
+.member-nickname {
+  font-size: 18px;
+  flex-grow: 1;
+  color: #eee;
+}
+.member-link {
+  margin-right: 8px;
+}
